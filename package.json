@@ -1,0 +1,27 @@
+{
+  "name": "dynamodb-recursive",
+  "version": "1.0.0",
+  "description": "Easy to use package to recursively scan AWS DynamoDb table using Document Client. Interchangable with aws-sdk's docClient.scan().",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sherbst/dynamodb-recursive.git"
+  },
+  "keywords": [
+    "dynamodb",
+    "docclient",
+    "aws"
+  ],
+  "author": "Sawyer Herbst",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sherbst/dynamodb-recursive/issues"
+  },
+  "homepage": "https://github.com/sherbst/dynamodb-recursive#readme",
+  "dependencies": {
+    "aws-sdk": "^2.435.0"
+  }
+}
